@@ -1,6 +1,15 @@
 
-# Created by https://www.gitignore.io/api/node,react,macos,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=node,react,macos,visualstudiocode
+# Created by https://www.gitignore.io/api/node,react,macos,firebase,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=node,react,macos,firebase,visualstudiocode
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
 
 ### macOS ###
 # General
@@ -160,7 +169,7 @@ sketch
 # Ignore all local history of files
 .history
 
-# End of https://www.gitignore.io/api/node,react,macos,visualstudiocode
+# End of https://www.gitignore.io/api/node,react,macos,firebase,visualstudiocode
 
 # Custom
 build/
