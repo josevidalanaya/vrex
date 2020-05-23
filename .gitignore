@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/node,react,macos,firebase,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=node,react,macos,firebase,visualstudiocode
+# Created by https://www.gitignore.io/api/node,sass,react,macos,firebase,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=node,sass,react,macos,firebase,visualstudiocode
 
 ### Firebase ###
 .idea
@@ -158,6 +158,12 @@ psd
 thumb
 sketch
 
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -169,7 +175,7 @@ sketch
 # Ignore all local history of files
 .history
 
-# End of https://www.gitignore.io/api/node,react,macos,firebase,visualstudiocode
+# End of https://www.gitignore.io/api/node,sass,react,macos,firebase,visualstudiocode
 
 # Custom
 build/
